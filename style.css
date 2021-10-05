@@ -1,0 +1,108 @@
+    
+    //font-family: 'Fira Sans', sans-serif;
+    h1{
+      color: #401CE1;
+      text-align: center;
+      
+    }
+    body{
+      background-color: rgb(83, 183, 250);  
+    }
+    .section{
+      display:flex;
+      flex-direction: row;
+      background-color: #85C1E9;
+       outline: 1px solid black;
+       padding: 2px;
+    }
+    .homePart{
+      text-align:center;
+      width:400px;
+    }
+    #homeText{
+      flex-grow:1;
+    }
+    #compPic{
+      width:100px;
+      flex-grow:0.5
+    }
+    h2{
+      color: rgb(34, 3, 172);
+      text-align: center;
+      font-family: 'Fira Sans', sans-serif;
+    }
+    h3{
+      font-family: 'Fira Sans', sans-serif;
+      color: rgb(34, 3, 172);
+    }
+    p{
+      font-family: 'Fira Sans', sans-serif;      
+    }
+    .menu{
+      background-color: #85C1E9;
+      padding:8px;
+      margin: 4px;
+      text-align: center;
+      outline: 2px solid black;
+    }
+    .box{
+      background-color: #85C1E9;
+      padding:10px;
+      border: 5px black;
+      margin: 5px;
+      display: inline;
+    }
+    a{
+      font-family: 'Fira Sans', sans-serif;
+      color: rgb(34, 3, 172);
+      text-decoration: none;      
+    }
+    hr{
+      padding: 1.5px;
+      background-color: black;
+    }
+    #banner{
+      outline: 3px solid black;
+      padding:1px;
+    }
+    #thoughts{
+      display: center;
+      font-family: 'Fira Sans', sans-serif;
+      background-color: #85C1E9;
+       outline: 2px solid black;
+       padding: 2px;
+    }
+    ul{
+      font-family: 'Fira Sans', sans-serif;
+    }
+    .amSection{
+      display: flex;
+      flex-direction: row;
+    }
+    .amPart{
+      width: 400px;
+    }
+    #amPic{
+      width:100;
+      flex-grow:0.5;
+      text-align:center;
+    }
+    #amText{
+      text-align:center;
+      flex-grow:2;
+    }
+    .projectSection{
+      display:flex;
+      flex-direction:column;
+    }
+    #cpText{
+      flex-grow:0.5;
+      align-items:center;
+    }
+    #createCode{
+      flex-grow:2;
+    }
+    #createProj{
+      display:flex;
+
+    }
